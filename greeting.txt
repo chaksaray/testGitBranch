@@ -1,7 +1,0 @@
-Hello!!
-
-How are u, Read_me?huh????
-
-MERGE!!!!
-
-GIT MERGE--NO--FF BRANCHNAME;;;
