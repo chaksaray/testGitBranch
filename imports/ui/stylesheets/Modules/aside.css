@@ -1,0 +1,190 @@
+/*start with style home*/
+.home .swiper-wrapper .swiper-slide img {
+    vertical-align: middle;
+    width: 100%;
+}
+.home .well{
+    max-height: 430px;
+    min-height: 20px;
+    padding: 15px;
+    margin: 25px 0px 0px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    overflow: hidden;
+
+}
+.home .well hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.home .well .h3-ttitle{
+    padding: 75px 0px 0px;
+}
+.home .well .btn-sign {
+    width: 90%;
+    margin: 70px 0px 0px;
+    background: red;
+    padding: 6px 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.home .well .btn-sign:hover, .home .well .btn-sign:focus {
+    width: 90%;
+    margin: 70px 0px 0px;
+    background: #000;
+    padding: 6px 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.pro-list1 a:hover, .pro-list1 a:focus{
+    background: #2192D9;
+    color: #fff;
+}
+.pro-list2 a:hover, .pro-list2 a:focus{
+    background: #55A344;
+    color: #fff;
+}
+.pro-list3 a:hover, .pro-list3 a:focus{
+    background: #FF6A00;
+    color: #fff;
+}
+.pro-list4 a:hover, .pro-list4 a:focus{
+    background: #4f74b3;
+    color: #fff;
+}
+.pro-list5 a:hover, .pro-list5 a:focus{
+    background: #FD9F41;
+    color: #fff;
+}
+.home .swiper-wrapper .swiper-slide  .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    text-align: left;
+}
+.home .contentTop label.text-title{
+    font-size: 18px;
+}
+.home .product-slider1 label.text-title, .home .product-slider2 label.text-title{
+    font-size: 24px;
+}
+.home .product-slider1 p.text-views, .home .product-slider2 p.text-views{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.home .contentTop{
+    height: 500px;
+}
+.home .m-ws-industry-list {
+    margin-top: 18px;
+    min-height: 321px;
+}
+.home .m-ws-industry-item {
+    height: 55px;
+    border-top: 1px solid #E6E7EB;
+    font-size: 14px;
+    color: #000;
+    line-height: 55px;
+    padding-left: 0px;
+}
+.home .m-ws-industry-item a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    padding-left: 8px;
+}
+.home .util-clearfix {
+    zoom: 1;
+}
+.home .m-ws-industry-item-img {
+    float: left;
+    margin-right: 18px;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+.home .m-ws-industry-item-name a{
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.home .m-ws-industry-item-name:hover a,.home .m-ws-industry-item-name:focus a{
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+.home .conten-findregion{
+    overflow:hidden;
+    padding: 15px 15px; 
+    height: 150px;
+    border: 1px solid #000;
+}
+.home .conten-findregion .region_contents{
+    margin-bottom:15px; 
+    overflow:hidden;
+}
+.m-ws-action a{
+    color:#fff;
+    text-decoration: none;
+}
+.m-ws-action a:hover, .m-ws-action a:focus{
+    color:#fff;
+    text-decoration: none;
+}
+.f-arr-btn {
+    font-size: 18px;
+    color: #FFF;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.f-sp-arr-orange {
+    width: 136px;
+    height: 40px;
+    background-position: 0 -136px;
+}
+.f-sp-arr-blue, .f-sp-arr-orange, .f-sp-bi, .f-sp-check, .f-sp-citibank, .f-sp-dot, .f-sp-ecl, .f-sp-flag-off, .f-sp-flag-profit, .f-sp-gs, .f-sp-icon-flag-cn, .f-sp-icon-flag-id, .f-sp-icon-flag-in, .f-sp-icon-flag-jp, .f-sp-icon-flag-my, .f-sp-icon-flag-th, .f-sp-icon-flag-tr, .f-sp-icon-flag-tw, .f-sp-icon-flag-us, .f-sp-icon-flag-vn, .f-sp-icon-secpay, .f-sp-img-ta-step, .f-sp-is, .f-sp-logsev, .f-sp-rfq, .f-sp-rfq-logo, .f-sp-ta, .f-sp-ta-btn, .f-sp-ta-m, .f-sp-video-play, .f-sp-vs, .f-sp-ws {
+    background-repeat: no-repeat;
+    background-image: url(/img/sprite.9032b81c.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+/*end with style home page*/
+
+/*start with style makeaccount page*/
+#makeaccount .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+/*end with style makeaccount page*/

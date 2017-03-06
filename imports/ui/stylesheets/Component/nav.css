@@ -1,0 +1,58 @@
+.bibilo-header .navbar-default{
+    background: none;
+    border: none;
+}
+.bibilo-header .input-group-btn {
+    position: relative;
+    font-size: 14px; 
+    white-space: nowrap;
+}
+.bibilo-header .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+.bibilo-header .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.bibilo-header .list-inline > li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.search-select{
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+.search-select:hover, .search-select:focus {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+.bibilo-header .navbar-default .navbar-nav > li:hover > a, .bibilo-header .navbar-default .navbar-nav > li:hover > a {
+    color: #fff;
+    background: #1686CC;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+/*.bibilo-header .navbar-inverse {
+    background: none;
+    border-color: #080808;
+    padding: 5px 0px;
+    overflow: hidden;
+    border: 1px solid #333;
+}*/
+.navbar-main .navbar-nav > li:hover > a{
+    background: #fff;
+    color: #486d97;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

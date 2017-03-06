@@ -1,0 +1,176 @@
+/*style for product detail*/
+.btn-order{
+  	padding: 8px 45px;
+ 	background: #FFF0E5;
+  	border: 1px solid red;
+  	border-radius: 6px;
+  	color: red;
+  	text-decoration: none;
+}
+.extra-others .ls-sideutm {
+    margin: 20px 0 0 14px;
+    font-size: 12px;
+}
+.ls-sideutm.no-pagin .content {
+    height: auto;
+}
+.ls-sideutm .content {
+    height: 366px;
+    overflow: hidden;
+}
+.ls-sideutm.no-pagin .items {
+    height: auto;
+}
+.ls-sideutm .items {
+    list-style: none;
+    overflow: hidden;
+    height: 10000px;
+    position: relative;
+    top: 0;
+    padding-left: 0px;
+}
+.ls-sideutm li {
+    height: 102px;
+    margin: 0 0 20px;
+    overflow: hidden;
+    display: list-item;
+}
+.ls-sideutm .iwrap {
+    float: left;
+    border: 1px solid #ddd;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    table-layout: fixed;
+    display: table !important;
+    display: block;
+    text-align: center;
+    margin-right: 15px;
+}
+.ls-sideutm .iwrap .ia {display: table-cell;text-align: center;vertical-align: middle;}
+.ls-sideutm a {
+    font-size: 14px;
+    color: #666;
+    line-height: 14px;
+}
+.ls-sideutm .info {
+    overflow: hidden;
+    color: #999;
+    font-size: 13px;
+}
+.ls-sideutm .title {
+    font-size: 14px;
+    color: #666;
+    max-height: 60px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.ls-brief .xyr-tag {
+    vertical-align: top;
+    margin-right: 4px;
+    font-weight: 400;
+    background-color: #e8f1fa;
+    color: #6b8eb3;
+    height: 20px;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 0 10px 0 8px;
+    position: relative;
+    zoom: 1;
+    display: inline-block;
+}
+.ls-brief .xyr-tag .dent {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 4px solid #FFF;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ .ls-brief .title,.ls-brief .title .title-text {
+    line-height: 22px;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+ .title .title-text {
+    line-height: 22px;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.btable{
+    font-size: 14px;
+}
+.btable th {
+    color: #999;
+    font-weight: 400;
+    padding: 6px 25px 6px 0px;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: left;
+}
+#J-fob-text span.J-brief-info-val, #fob-price-value span.J-brief-info-val {
+    color: red;
+    font-weight: 700;
+    margin-right: 4px;
+}
+.ls-brief .glp, .ls-brief .w .glp {
+    color: #06C;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.ls-brief .glp:hover, .ls-brief .w .glp:hover {
+    color: red;
+}
+.ls-operate {
+    background-color: #fff;
+    border: none;
+    padding-left: 1px;
+}
+.ls-operate {
+    padding: 0;
+    box-shadow: none;
+    margin: 0;
+}
+.ls-operate .pre-inquiry {
+    margin: 0;
+    padding: 10px 0 15px;
+}
+.pre-inquiry {
+    background: #fff;
+    padding-top: 0;
+}
+.ls-operate .button-container {
+    margin: 0 -1px;
+}
+.ls-operate .button-two-columns .button-group {
+    width: 49.5%;
+    min-height: 105px;
+}
+.ls-operate .button-group {
+    display: inline-block;
+    padding: 16px 0px;
+    background-color: #F5F7FA;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #FFF;
+    vertical-align: top;
+}
+.ls-operate .button-group .button-item {
+    margin-left: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.ls-operate .button-item.link {
+    display: inline-block;
+    color: #1686cc;
+    line-height: 16px;
+    text-align: left;
+}

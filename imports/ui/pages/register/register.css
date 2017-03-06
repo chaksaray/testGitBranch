@@ -1,0 +1,35 @@
+.formregister h3{
+	color: red;
+}
+#makeaccount .wellcontrol{
+	margin: 50px 0px 50px !important;
+	padding: 50px 19px !important;
+}
+.registration ul{
+	list-style: none;
+	padding: 0px 0px 0px 15px; 
+}
+.registration ul li{
+	margin: 15px 0px;
+}
+.registration ul li span.glyphicon {
+  	padding: 8px;
+  	border-radius: 50%;
+  	border: 2px solid red;
+  	margin-right: 15px;
+}
+.registration ul li strong{
+	color: red;
+}
+#makeaccount .well{
+	overflow: hidden;
+}
+.fb_login{
+    background: #4E69A2;
+    color: #fff;
+}
+#registerto .well {
+	background: #232f3e !important;
+    color: #fff;
+    font-weight: bold;
+}
