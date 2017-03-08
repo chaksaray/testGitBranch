@@ -1,0 +1,1130 @@
+<template name="products">
+<style type="text/css">
+	.item-menu{
+		padding: 0px;
+	}
+	.item-menu  .item{
+	  clear: both;
+	  list-style: none;
+	  padding: 0;
+	}
+	#mobile-nav, #mobile-navbar, .materialhide {
+	    display: none;
+	    z-index: 100;
+	    width: 100%;
+	}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.checkbox label, .radio label {
+    min-height: auto;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+}
+form.formcheckbox {
+    height: auto;
+    overflow-y: hidden; 
+    width: 100%;
+    margin-bottom: 5px;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+    margin-top: 1px;
+}
+.readmore1, .readless1 {
+    padding-left: 10px;
+    cursor: pointer;
+    margin: 5px 0px; 
+}
+</style>
+	<section>
+		<div class="container-fluid">
+			<ul class="nav nav-tabs" style="margin: 0px 235px;">
+			    <li class="active"><a data-toggle="tab" href="#product">Products</a></li>
+			    <li><a data-toggle="tab" href="#supplier">Supplier</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="product" class="tab-pane fade in active">
+					<div class="row">
+						<div class="col-md-2">
+							<div id="relatedcategory">
+								<div class="procategory">
+									<a href="">
+										<i class="fa fa-list-ul" aria-hidden="true"></i>Related Categories
+									</a>
+								</div>
+								<div class="subrelatedcategory">
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li>
+											<a href="">Flower Pots & Planters (18123)</a>
+										</li>
+										<li>
+											<a href="">Garden Hoses & Reels (1797)</a>
+										</li>
+										<li>
+											<a href="">Garden Greenhouses (1395)</a>
+										</li>
+										<li>
+											<a href="">Fencing, Trellis & Gates (4428)</a>
+										</li>
+										<li>
+											<a href="">Laundry Bags & Baskets (46)</a>
+										</li>
+									</ul>
+								    <ul id="mobile-navbar" class="primary-nav menleft">
+								        <li>
+											<a href="">Other Garden Ornaments & Water Features (2718)</a>
+										</li>
+										<li>
+											<a href="">Other Home Decor (3831)</a>
+										</li>
+										<li>
+											<a href="">Other Household Cleaning Tools & Accessories (62)</a>
+										</li>
+								    </ul>
+									<div class="navbar-button">
+									<span class="readmore1" style="display: block;"> + View &nbsp;More</span>
+									<span class="readless1" style="display: none;"> - View &nbsp;less</span>
+									</div>
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li>
+											<a href="">Garden Sets (4059)</a>
+										</li>
+										<li>
+											<a href="">Folding Chairs (4436)</a>
+										</li>
+										<li>
+											<a href="">Plastic Chairs (2980)</a>
+										</li>
+										<li>
+											<a href="">Garden Chairs (2871)</a>
+										</li>
+										<li>
+											<a href="">Metal Chairs (2011)</a>
+										</li>
+									</ul>
+								</div>
+								<div class="procategory">
+									<a href="">
+										<i class="fa fa-list-ul" aria-hidden="true"></i>Products Feature
+									</a>
+								</div>
+								<div class="'subrelatedcategory">
+									<!-- start type list menu -->
+									<div>
+										<a href="" class="classtype"><i class="fa fa-angle-up" aria-hidden="true"></i> Type</a>
+									</div>
+									<div class="subclasstype">
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Printed <em class="num">(791)</em></label>
+										    </div>
+										</form>
+									</div><!-- at the end of type list menu -->
+									<!-- start material list menu -->
+									<div>
+										<a href="" class="classmaterialup"><i class="fa fa-angle-up" aria-hidden="true"></i> Material</a>
+										<a href="" class="classmaterialdown" style="display: none;"><i class="fa fa-angle-down" aria-hidden="true"></i> Material</a>
+									</div>
+									<div class="subclassmaterial">
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Wooden <em class="num">(1492)</em></label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Fiberglass <em class="num">(1945)</em></label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">100% Cotton <em class="num">(884)</em></label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Plastic <em class="num">(55718)</em></label>
+										    </div>
+											<div class="checkbox materialhide" style="display: none;">
+												<div class="checkbox">
+											      	<label><input type="checkbox" value="">Rattan/Wicker <em class="num">(7734)</em></label>
+											    </div>
+											    <div class="checkbox">
+											      	<label><input type="checkbox" value="">Resin <em class="num">(23981)</em></label>
+											    </div>
+											</div>
+											<div class="checkbox">
+												<span class="materialseemore" style="display: block;"> + View &nbsp;More</span>
+												<span class="materialseeless" style="display: none;"> - View &nbsp;less</span>
+											</div>
+										</form>
+									</div><!-- at the end of material list menu -->
+									<!-- start feature list menu -->
+									<div>
+										<a href="" class="classrfeature"><i class="fa fa-angle-up" aria-hidden="true"></i> Feature</a>
+									</div>
+									<div class="subclassfeature">
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Easily Assembled (10244)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Eco-Friendly (38887)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Rot Proof (3995)</label>
+										    </div>
+										</form>
+									</div>
+									<!-- at the end of feature list menu -->
+									<!-- start use list menu -->
+									<div>
+										<a href="" class="classuse"><i class="fa fa-angle-up" aria-hidden="true"></i> Use</a>
+									</div>
+									<div class="subclassuse">
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Beach (931)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Home (1027)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Home Decoration (38095)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Sundries (204)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Airplane (853)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Clothing (124)</label>
+										    </div>
+										</form>
+									</div>
+									<!-- at the end of use list menu -->
+									<!-- start style list menu -->
+									<div>
+										<a href="" class="classstyle"><i class="fa fa-angle-up" aria-hidden="true"></i> Style</a>
+									</div>
+									<div class="subclassstyle">
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Modern (2203)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Feng Shui (2650)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Plain (1202)</label>
+										    </div>
+										</form>
+									</div>
+									<!-- at the end of style list menu -->
+									<div>
+										<a href=""><i class="fa fa-angle-up" aria-hidden="true"></i> Specific Use</a>
+									</div>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Garden Set (4059)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Coffee Table (2275)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Living Room Chair (5778)</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Home Stool & Ottoman (6722)</label>
+										    </div>
+										</form>
+									</div>
+									<div>
+										<a href=""><i class="fa fa-angle-up" aria-hidden="true"></i> Metal Use</a>
+									</div>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										</form>
+									</div>
+									<a href=""><i class="fa fa-angle-up" aria-hidden="true"></i> Sample Order</a>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										</form>
+									</div>
+								</div>
+								<div class="procategory">
+									<a href="">
+										<i class="fa fa-list-ul" aria-hidden="true"></i>Supplier Features
+									</a>
+								</div>
+								<div class="'subrelatedcategory">
+									<a href="">Material</a>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										</form>
+									</div>
+									<a href="">Feature</a>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										</form>
+									</div>
+									<a href="">Use</a>
+									<div>
+										<form class="formcheckbox">
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 1</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 2</label>
+										    </div>
+										    <div class="checkbox">
+										      	<label><input type="checkbox" value="">Option 3</label>
+										    </div>
+										</form>
+									</div>
+								</div>
+								<div class="procategory">
+									<a href="">
+										<i class="fa fa-list-ul" aria-hidden="true"></i>My History
+									</a>
+								</div>
+								<div class="'subrelatedcategory">
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li>
+											<a href="">Flower Pots & Planters (18123)</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="m-aggregation-product-item-title">Top Matching Supplier</div>
+							<div class="product-item" style="border: 1px solid #dae2ed">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-7">
+												<div class="info-main">
+													<h3 class="title">
+														<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+													</h3>
+													<div>
+														<div style="display: inline-block; margin-right:22px;">
+															<b>US $1-20</b> /box
+														</div>
+														<div style="display: inline-block;">
+															<b>30 Boxes</b> (Min. Order)
+														</div>
+													</div>
+													<ul class="kv-prop">        
+							                            <li class="kv">Main Ingredient: <b>Collagen, Hyaluronic Acid, Pearl, Vitamin C</b></li>
+							                            <li class="kv" title="">Feature: <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+							                            <li class="kv">Material: <b>natural silk</b></li>
+							                            <li class="kv">Use: <b>Face</b></li>
+							                        </ul>
+												</div>
+											</div>
+											<div class="col-md-5">
+												<div class="main-extra">
+						                            <div class="main-extra-wrap">
+						                                <div class="stitle-loc util-clearfix">
+						                                    <div class="">
+						                                        <a href="">Guangzhou Prebeauty Electronic Technology Co., Ltd.</a>
+						                                    </div>
+						                                    <div class="loc-box">
+						                                        <span class="location util-ellipsis">China (Mainland)</span>
+						                                        <span title="" class="ta">
+						                                            <i class="ui2-icon ui2-icon-ta ico-ta"></i><a href="//tradeassurance.alibaba.com/bao/buyer_advertise.htm?spm=a2700.7743248.51.4.9rqy5r&amp;tracelog=from_list_item" rel="nofollow" target="_blank" data-spm-anchor-id="a2700.7743248.51.4">Trade Assurance</a>
+						                                        </span>
+						                                    </div>
+						                                </div>
+						                                <ul class="record util-clearfix">
+						                                    <li>
+						                                        <div class="lab">Visits</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-browse"></i>200+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Inquiries</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-comment"></i>10+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Response Rate</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+						                                    </li>
+						                                    <li title="">
+						                                        <div class="lab"><b>2</b> Transactions</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+						                                    </li>
+						                                </ul>
+						                            </div>
+						                        </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="main-col-main">
+										<div class="col-md-3">
+					                        <a class="fc compare" href=""><i class="ui2-icon ui2-icon-compare"></i><i class="ui2-icon ui2-icon-selected"></i>Compare</a>
+										</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-7">
+													<div>
+														<span><i class="fa fa-angle-left" aria-hidden="true"></i> Sponsored Listing</span>
+													</div>
+												</div>
+												<div class="col-md-5">
+													<div class="main-extra action-extra">
+							                            <div class="main-extra-wrap action-extra-wrap">
+							                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+							                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+							                            </div>
+							                        </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-aggregation-product-item-title">More Matching Supplier</div>
+							<div class="product-item" style="border-bottom: 1px solid #dae2ed">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-7">
+												<div class="info-main">
+													<h3 class="title">
+														<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+													</h3>
+													<div>
+														<div style="display: inline-block; margin-right:22px;">
+															<b>US $1-20</b> /box
+														</div>
+														<div style="display: inline-block;">
+															<b>30 Boxes</b> (Min. Order)
+														</div>
+													</div>
+													<ul class="kv-prop">        
+							                            <li class="kv">Main Ingredient: <b>Collagen, Hyaluronic Acid, Pearl, Vitamin C</b></li>
+							                            <li class="kv" title="">Feature: <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+							                            <li class="kv">Material: <b>natural silk</b></li>
+							                            <li class="kv">Use: <b>Face</b></li>
+							                        </ul>
+												</div>
+											</div>
+											<div class="col-md-5">
+												<div class="main-extra">
+						                            <div class="main-extra-wrap">
+						                                <div class="stitle-loc util-clearfix">
+						                                    <div class="">
+						                                        <a href="">Guangzhou Prebeauty Electronic Technology Co., Ltd.</a>
+						                                    </div>
+						                                    <div class="loc-box">
+						                                        <span class="location util-ellipsis">China (Mainland)</span>
+						                                        <span title="" class="ta">
+						                                            <i class="ui2-icon ui2-icon-ta ico-ta"></i><a href="//tradeassurance.alibaba.com/bao/buyer_advertise.htm?spm=a2700.7743248.51.4.9rqy5r&amp;tracelog=from_list_item" rel="nofollow" target="_blank" data-spm-anchor-id="a2700.7743248.51.4">Trade Assurance</a>
+						                                        </span>
+						                                    </div>
+						                                </div>
+						                                <ul class="record util-clearfix">
+						                                    <li>
+						                                        <div class="lab">Visits</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-browse"></i>200+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Inquiries</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-comment"></i>10+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Response Rate</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+						                                    </li>
+						                                    <li title="">
+						                                        <div class="lab"><b>2</b> Transactions</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+						                                    </li>
+						                                </ul>
+						                            </div>
+						                        </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="main-col-main">
+										<div class="col-md-3">
+					                        <a class="fc compare" href=""><i class="ui2-icon ui2-icon-compare"></i><i class="ui2-icon ui2-icon-selected"></i>Compare</a>
+										</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-7">
+													<div>
+														<span><i class="fa fa-angle-left" aria-hidden="true"></i> Sponsored Listing</span>
+													</div>
+												</div>
+												<div class="col-md-5">
+													<div class="main-extra action-extra">
+							                            <div class="main-extra-wrap action-extra-wrap">
+							                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+							                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+							                            </div>
+							                        </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-item" style="">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-7">
+												<div class="info-main">
+													<h3 class="title">
+														<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+													</h3>
+													<div>
+														<div style="display: inline-block; margin-right:22px;">
+															<b>US $1-20</b> /box
+														</div>
+														<div style="display: inline-block;">
+															<b>30 Boxes</b> (Min. Order)
+														</div>
+													</div>
+													<ul class="kv-prop">        
+							                            <li class="kv">Main Ingredient: <b>Collagen, Hyaluronic Acid, Pearl, Vitamin C</b></li>
+							                            <li class="kv" title="">Feature: <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+							                            <li class="kv">Material: <b>natural silk</b></li>
+							                            <li class="kv">Use: <b>Face</b></li>
+							                        </ul>
+												</div>
+											</div>
+											<div class="col-md-5">
+												<div class="main-extra">
+						                            <div class="main-extra-wrap">
+						                                <div class="stitle-loc util-clearfix">
+						                                    <div class="">
+						                                        <a href="">Guangzhou Prebeauty Electronic Technology Co., Ltd.</a>
+						                                    </div>
+						                                    <div class="loc-box">
+						                                        <span class="location util-ellipsis">China (Mainland)</span>
+						                                        <span title="" class="ta">
+						                                            <i class="ui2-icon ui2-icon-ta ico-ta"></i><a href="//tradeassurance.alibaba.com/bao/buyer_advertise.htm?spm=a2700.7743248.51.4.9rqy5r&amp;tracelog=from_list_item" rel="nofollow" target="_blank" data-spm-anchor-id="a2700.7743248.51.4">Trade Assurance</a>
+						                                        </span>
+						                                    </div>
+						                                </div>
+						                                <ul class="record util-clearfix">
+						                                    <li>
+						                                        <div class="lab">Visits</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-browse"></i>200+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Inquiries</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-comment"></i>10+</div>
+						                                    </li>
+						                                    <li>
+						                                        <div class="lab">Response Rate</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+						                                    </li>
+						                                    <li title="">
+						                                        <div class="lab"><b>2</b> Transactions</div>
+						                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+						                                    </li>
+						                                </ul>
+						                            </div>
+						                        </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="main-col-main">
+										<div class="col-md-3">
+					                        <a class="fc compare" href=""><i class="ui2-icon ui2-icon-compare"></i><i class="ui2-icon ui2-icon-selected"></i>Compare</a>
+										</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-7">
+													<div>
+														<span><i class="fa fa-angle-left" aria-hidden="true"></i> Sponsored Listing</span>
+													</div>
+												</div>
+												<div class="col-md-5">
+													<div class="main-extra action-extra">
+							                            <div class="main-extra-wrap action-extra-wrap">
+							                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+							                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+							                            </div>
+							                        </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="relatedproduct">
+								<h4>Premium Related Products</h4>
+								<ul class="listproduct-rightsidebar">
+									<li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			    <div id="supplier" class="tab-pane fade">
+			      	<div class="row">
+						<div class="col-md-2">
+							<div class="supplier-leftsidebar">
+								<div class="categories">
+									<a href="">Categories</a>
+								</div>
+								<div class="subcategories">
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+									</ul>
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+									</ul>
+								</div>
+								<div class="top3market">
+									<a href="">Top 3 Market</a>
+								</div>
+								<div class="subtop3market">
+									<form class="formcheckbox">
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 2</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 3</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 2</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 3</label>
+									    </div>
+									</form>
+								</div>
+								<div class="totalrevenue">
+									<a href="">Total Revenue</a>
+								</div>
+								<div class="subtotalrevenue">
+									<ul class="menleft">
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+									</ul>
+									<a href="">Home & Garden</a>
+									<ul class="menleft">
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+									</ul>
+								</div>
+								<div class="certificat">
+									<a href="">Mgnt Cerfification</a>
+								</div>
+								<div class="subcertificat">
+									<form class="formcheckbox">
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 2</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 3</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 2</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 3</label>
+									    </div>
+									</form>
+								</div>
+								<div class="r&d">
+									<a href="">R&D</a>
+								</div>
+								<div class="subr&d">
+									<form>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 2</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 3</label>
+									    </div>
+									    <div class="checkbox">
+									      <label><input type="checkbox" value="">Option 1</label>
+									    </div>
+									</form>
+								</div>
+								<div class="employees">
+									<a href="">No. of Employees</a>
+								</div>
+								<div class="subemployees">
+									<ul class="menleft">
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+										<li><a href="">Home & Garden</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<!-- supplier one -->
+							<div class="product-item" style="border-bottom: 1px solid #dae2ed">
+								<h3 class="title">
+									<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+								</h3>
+								<div class="row">
+									<div class="col-sm-5">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-7">
+										<ul class="kv-prop supplier-product record">        
+				                            <li class="kv"><div class="men-kv">Transaction Lavel:</div> <b>Collagen, Hyaluronic </b></li>
+				                            <li class="kv"><div class="men-kv">Main Products: </div> <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+				                            <li class="kv"><div class="men-kv">Country/Region:</div> <b>natural silk</b></li>
+				                            <li class="kv"><div class="men-kv">Total Revenue:</div> <b>Face</b></li>
+				                            <li class="kv"><div class="men-kv">Top 3 Markets:</div> <b>Face</b></li>
+				                            <li>
+		                                        <div class="lab">Response Rate</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+		                                    </li>
+				                        </ul>
+				                        <div class="main-extra action-extra">
+				                            <div class="main-extra-wrap action-extra-wrap">
+				                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+				                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+				                            </div>
+				                        </div>
+									</div>
+								</div>
+							</div>
+							<!-- supplier two -->
+							<div class="product-item" style="border-bottom: 1px solid #dae2ed">
+								<h3 class="title">
+									<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+								</h3>
+								<div class="row">
+									<div class="col-sm-5">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-7">
+										<ul class="kv-prop supplier-product record">        
+				                            <li class="kv"><div class="men-kv">Transaction Lavel:</div> <b>****</b></li>
+				                            <li class="kv"><div class="men-kv">Main Products: </div> <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+				                            <li class="kv"><div class="men-kv">Country/Region:</div> <b>Cambodia</b></li>
+				                            <li class="kv"><div class="men-kv">Total Revenue:</div> <b>supplier</b></li>
+				                            <li class="kv"><div class="men-kv">Top 3 Markets:</div> <b>Face</b></li>
+				                            <li title="">
+		                                        <div class="lab"><b>2</b> Transactions</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+		                                    </li>
+				                            <li>
+		                                        <div class="lab">Response Rate</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+		                                    </li>
+				                        </ul>
+				                        <div class="main-extra action-extra">
+				                            <div class="main-extra-wrap action-extra-wrap">
+				                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+				                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+				                            </div>
+				                        </div>
+									</div>
+								</div>
+							</div>
+							<!-- supplier three -->
+							<div class="product-item" style="border-bottom: 1px solid #dae2ed">
+								<h3 class="title">
+									<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+								</h3>
+								<div class="row">
+									<div class="col-sm-5">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-7">
+										<ul class="kv-prop supplier-product record">        
+				                            <li class="kv"><div class="men-kv">Transaction Lavel:</div> <b>****</b></li>
+				                            <li class="kv"><div class="men-kv">Main Products: </div> <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+				                            <li class="kv"><div class="men-kv">Country/Region:</div> <b>Cambodia</b></li>
+				                            <li class="kv"><div class="men-kv">Total Revenue:</div> <b>supplier</b></li>
+				                            <li class="kv"><div class="men-kv">Top 3 Markets:</div> <b>Face</b></li>
+				                            <li title="">
+		                                        <div class="lab"><b>2</b> Transactions</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+		                                    </li>
+				                            <li>
+		                                        <div class="lab">Response Rate</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+		                                    </li>
+				                        </ul>
+				                        <div class="main-extra action-extra">
+				                            <div class="main-extra-wrap action-extra-wrap">
+				                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+				                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+				                            </div>
+				                        </div>
+									</div>
+								</div>
+							</div>
+							<!-- supplier four -->
+							<div class="product-item" style="border-bottom: 1px solid #dae2ed">
+								<h3 class="title">
+									<a href="">Hot sale whitening facial mask injection glutathione whitening skin</a>
+								</h3>
+								<div class="row">
+									<div class="col-sm-5">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+											<div class="col-sm-4">
+												<img src="/img/Hot-sale-whitening-facial-mask-injection-glutathione.jpg_220x220.jpg" class="img-responsive" />
+												<p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-7">
+										<ul class="kv-prop supplier-product record">        
+				                            <li class="kv"><div class="men-kv">Transaction Lavel:</div> <b>****</b></li>
+				                            <li class="kv"><div class="men-kv">Main Products: </div> <b>Anti-Wrinkle,Lightening,Whitening,Anti-Wrinkle, Blemish Clearing, Firming, Lightening, Moisturizer,</b></li>
+				                            <li class="kv"><div class="men-kv">Country/Region:</div> <b>Cambodia</b></li>
+				                            <li class="kv"><div class="men-kv">Total Revenue:</div> <b>supplier</b></li>
+				                            <li class="kv"><div class="men-kv">Top 3 Markets:</div> <b>Face</b></li>
+				                            <li title="">
+		                                        <div class="lab"><b>2</b> Transactions</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-dollar"></i>2,000+</div>
+		                                    </li>
+				                            <li>
+		                                        <div class="lab">Response Rate</div>
+		                                        <div class="num"><i class="ui2-icon ui2-icon-skip"></i>90.2%</div>
+		                                    </li>
+				                        </ul>
+				                        <div class="main-extra action-extra">
+				                            <div class="main-extra-wrap action-extra-wrap">
+				                                <a class="ui2-button ui2-button-default ui2-button-primary ui2-button-small csp" href=""><i class="ui2-icon ui2-icon-message ico-cs"></i>Contact Supplier</a>
+				                                <a class="atm" href=""><div class="alitalk-unit alitalk-normal atm-grey" data-status="OFFLINE" title="">Leave Messages</div></a>
+				                            </div>
+				                        </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="relatedproduct">
+								<h4>Premium Related Products</h4>
+								<ul class="listproduct-rightsidebar">
+									<li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								    <li>
+									    <div class="img-wrapper">
+										    <div class="img-inner-wrapper">
+											    <a href=""><img src="//sc02.alicdn.com/kf/HTB1r.H3IVXXXXacaXXXq6xXFXXXx/Home-garden-pvc-coating-iron-fencing-and.jpg_200x200.jpg" class="img-responsive"></a>
+										    </div>
+									    </div>
+									    <p><a href=""><strong>Home</strong> <strong>&amp;</strong> <strong>garden</strong> pvc coating iron fencing and fence panel</a></p>
+								    </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+			    </div>
+			 </div>		
+		</div>
+	</section>
+<script>
+$(".readmore").click(function() {
+    $("#mobile-nav").slideToggle("fast");
+    $(".readmore").hide("fast");
+    $(".readless").show("fast");
+});
+$(".readless").click(function() {
+    $("#mobile-nav").slideToggle("fast");
+    $(".readless").hide("fast");
+    $(".readmore").show("fast");
+});
+$(".readmore1").click(function() {
+    $("#mobile-navbar").slideToggle("fast");
+    $(".readmore1").hide("fast");
+    $(".readless1").show("fast");
+});
+$(".readless1").click(function() {
+    $("#mobile-navbar").slideToggle("fast");
+    $(".readless1").hide("fast");
+    $(".readmore1").show("fast");
+});
+// type script
+$(".classtype").click(function(){
+	$(".subclasstype").slideToggle("fast");
+});
+
+// material script
+$(".classmaterialup").click(function(){
+	$(".subclassmaterial").slideToggle("fast");
+	$(".classmaterialup").hide("fast");
+	$(".classmaterialdown").show("fast");
+});
+$(".classmaterialdown").click(function(){
+	$(".subclassmaterial").slideToggle("fast");
+	$(".classmaterialdown").hide("fast");
+	$(".classmaterialup").show("fast");
+});
+$(".materialseemore").click(function(){
+	$(".materialhide").slideToggle("fast");
+	$(".materialseemore").hide("fast");
+	$(".materialseeless").show("fast");
+});
+$(".materialseeless").click(function(){
+	$(".materialhide").slideToggle("fast");
+	$(".materialseeless").hide("fast");
+	$(".materialseemore").show("fast");
+});
+
+// feature script
+$(".classrfeature").click(function(){
+	$(".subclassfeature").slideToggle("fast");
+});
+
+// use script
+$(".classuse").click(function(){
+	$(".subclassuse").slideToggle("fast");
+});
+
+// style script
+$(".classstyle").click(function(){
+	$(".subclassstyle").slideToggle("fast");
+});
+</script>
+</template>

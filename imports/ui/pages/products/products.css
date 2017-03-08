@@ -1,0 +1,317 @@
+.m-aggregation-product-item-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 24px 0px 8px;
+}
+.product-item{
+	padding: 15px;
+}
+.product-item:hover{
+	padding: 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,.13);
+}
+.kv-prop {
+    color: #999;
+    margin: 8px 0 0;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0px;
+}
+.kv {
+    float: left;
+    width: 46%;
+    margin-right: 4%;
+    line-height: 18px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    font-size: 12px;
+}
+.men-kv{
+    float: left;
+    width: 110px;
+}
+.supplier-product .kv {
+    /* float: left; */
+    width: 100%;
+    margin-right: 4%;
+    line-height: 14px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.product-item p a{
+    font-size: 12px;
+}
+
+.info-tag {
+    width: auto;
+    float: none;
+    margin-top: 16px;
+}
+.tags {
+    margin-left: 0px;
+    max-height: auto;
+    line-height: 0;
+    overflow: hidden;
+}
+.m-aggregation-product-item .ui2-tag {
+    margin: 2px 4px;
+}
+.ui2-tag-small {
+    line-height: 20px;
+    height: 20px;
+}
+.ui2-tag {
+    font-size: 12px;
+    line-height: 26px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px;
+    margin-left: 0;
+    margin-top: 0;
+    height: 28px;
+    text-decoration: none;
+    color: #53647a;
+    border: 1px solid #dae2ed;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+@media (min-width: 1596px){
+	.rwd .m-aggregation-product-item .ui2-tag-body {
+	    max-width: 150px;
+	}
+}
+.ui2-tag .ui2-tag-body {
+	cursor: pointer;
+    max-width: 100%;
+    vertical-align: top;
+    padding: 0 8px;
+    line-height: 28px;
+    height: 28px;
+}
+.ui2-tag .ui2-tag-body, .ui2-tag .ui2-tag-head, .ui2-tag .ui2-tag-tail {
+    display: inline-block;
+}
+.util-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-col-main {
+    border-right: 1px solid #efefef;
+    min-height: 1px;
+    padding-right: 12px;
+    /*margin-top: 25px;*/
+}
+
+/*.main-extra {
+    width: 440px;
+    margin-left: -442px;
+    border-left: 1px solid #efefef;
+    min-height: 1px;
+}*/
+.main-extra {
+    display: inline;
+    float: left;
+}
+#supplier .product-item .main-extra {
+    display: inline;
+    float: left;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.stitle {
+    line-height: 18px;
+    margin-top: -6px;
+    padding-top: 6px;
+}
+.util-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.record {
+    list-style: none;
+    margin-top: 8px;
+    font-size: 14px;
+    overflow: hidden;
+    padding-left: 0px;
+}
+.record li {
+    float: left;
+    margin-right: 25px;
+    margin-top: 4px;
+}
+.record .num {
+    color: red;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.ui2-button-primary, .ui2-button-primary:hover, a.ui2-button-primary:hover {
+    background: red;
+    border-color: red;
+    color: #FFF;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+alitalk-unit.atm-grey {
+    background-position: 0 -48px;
+}
+.alitalk-unit {
+    display: inline-block;
+    color: rgb(0, 75, 145);
+    font-family: Roboto, Helvetica, Tahoma, Arial, sans-serif, SimSun, 宋体;
+    font-size: 12px;
+    height: 20px;
+    line-height: 22px;
+    background-image: url("img/icon1.png");
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px 0px 0px 24px;
+    background-repeat: no-repeat;
+}
+a {
+    color: #486d97;
+    font-size: 14px;
+}
+.info-main h3.title a {
+    color: #486d97;
+    font-size: 18px;
+}
+.info-main h3.title a:hover,.info-main h3.title a:focus {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/*menu tabs*/
+.nav-tabs > li {
+    float: left;
+    margin-bottom: 0px;
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: red;
+    cursor: default;
+    background: #fff;
+    border: none; 
+    border-bottom-color: transparent;
+    margin-bottom: 0px;
+}
+.nav-tabs > li > a:hover {
+    border: none;
+    background: none;
+}
+
+ul.menleft{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+#relatedcategory >.subrelatedcategory >ul.menleft {
+    margin-top: 0;
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+ul.menleft li a{
+	font-size: 12px;
+}
+ul.menleft li a:hover{
+	color: red;
+	text-decoration: none;
+}
+#relatedcategory {
+	margin-top: -40px;
+	border-right: 1px solid #ccc;
+}
+#relatedcategory .procategory {
+    padding: 7px 5px;
+    background: #ccc;
+}
+#relatedcategory .procategory a{
+	font-size: 16px;
+}
+#relatedcategory .procategory i{
+	margin-right: 15px;
+}
+#relatedcategory .subcategory{
+    background: #ccc;
+    padding: 5px 15px;
+}
+#relatedcategory >.subrelatedcategory> a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+#relatedcategory .subcategory a:hover{
+	color: red;
+	text-decoration: none;
+}
+.min-order{
+	margin: 15px 0px;
+}
+.min-order .min-input{
+	width: 55px;
+	padding: 4px;
+}
+
+ul.menright{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 10px;
+}
+
+form.formcheckbox {
+    height: 135px;
+    overflow-y: scroll;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+ul.listproduct-rightsidebar{
+	list-style: none;
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin: 0;
+}
+.relatedproduct{
+	margin-top: -30px;
+}
+
+.supplier-leftsidebar{
+    border-right: 1px solid #ccc;
+    margin-top: -40px;
+}

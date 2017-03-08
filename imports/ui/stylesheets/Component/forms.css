@@ -1,0 +1,23 @@
+#makeaccount .well hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.a-spacing-top-medium {
+    margin-top: 18px!important;
+}
+.btn-makeaccount{
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid red;
+}
+.social-media{
+    padding-top: 5px;
+}

@@ -1,0 +1,61 @@
+#login{
+    margin:150px 0px;
+}
+.a-box .a-divider.a-divider-break, .a-color-base-background .a-divider.a-divider-break, .a-divider.a-divider-break {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    margin-bottom: 14px;
+    line-height: 0;
+}
+.a-box .a-divider.a-divider-break h5, .a-color-base-background .a-divider.a-divider-break h5, .a-divider.a-divider-break h5 {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+#login hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+#login p.text-joinfree {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: right;
+}
+#login .fa-2x {
+    font-size: 1.7em;
+    margin-left: 10px;
+}
+#login a:hover, #signin a:focus {
+    color: red;
+    text-decoration: underline;
+}
+#login label.social a:hover, #signin label.social a:focus {
+    color: #486d97;
+    text-decoration: none;
+}
+.main-footer-social-list > li .fa.fa-twitter {
+    background: #55acee;
+}
+#login .well {
+  min-height: 20px;
+  padding: 45px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 10px #ddd;
+}
