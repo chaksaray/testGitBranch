@@ -377,6 +377,11 @@ hr.bottom {
     .footer2 .footer {
         text-align: center;
     }
+    .subscribe {
+        width: 100%;
+        overflow: hidden;
+        margin: 15px auto;
+    }
 }
 
 @media (max-width: 991px) {
