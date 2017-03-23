@@ -151,6 +151,11 @@
     padding: 25px 0 0 20px;
     position: relative;
     overflow: hidden;
+    height: 117px;
+}
+.seco-block-cat .products-list-cate .items-ls1{
+    width: 50%;
+    height: 234px;
 }
 .products-list-cate .items-ls1{
   border-top: 1px solid #ccc;
@@ -263,4 +268,124 @@
     background-image: none;
     left: 0px;
     right: auto;
+}
+
+/*media screen responsive style sheet*/
+@media (max-width: 640px){
+
+}
+
+@media (max-width: 767px){
+    #first-slider{
+        padding: 0px !important;
+    } 
+    #tab-manage-content{
+        padding: 0px;
+    }
+    #tab-manage-content .cats-menu {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    #tab-manage-content .cats-menu a {
+        text-decoration: none;
+        color: #555;
+        font-size: 11px;
+    }
+    .affix .col-sm-4 {
+        width: 15%;
+        display: none;
+    }
+    .affix .affix-search-blog {
+        display: block;
+        min-width: 100%;
+        float: right;
+        margin: 10px 0px 10px 0px;
+    }
+
+    /*style sheet for product categories*/
+    #section1{
+        padding: 0px;
+    }
+    .col-mg-product {
+        background: /*rgba(19,19,4,.04)*/ #fff;
+        min-height: 415px;
+        overflow: hidden;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .m-ws-industry-item {
+        height: 50px;
+        border-top: 1px solid #E6E7EB;
+        font-size: 14px;
+        color: #000;
+        line-height: 50px;
+    }
+    .m-ws-industry-item-img {
+        float: left;
+        margin-right: 18px;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 8px;
+    }
+
+    /*block categories product list*/
+    #block-banner, #block-product-list, #section2 {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .section-items {
+        background: #fff;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+    }
+    .products-list-cate .items-ls1, .products-list-cate .items-ls2, .products-list-cate .items-ls3, .products-list-cate .items-ls4 {
+        width: 50%;
+        float: left;
+        padding: 15px 0 0 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    .img-items {
+        position: absolute;
+        bottom: -12px;
+        right: -15px;
+        width: 75px;
+        height: 75px;
+    }
+    .info-items {
+        position: relative;
+        padding-right: 30px;
+        padding-bottom: 45px;
+    }
+    a {
+        color: #486d97;
+        font-size: 12px;
+    }
+        
+
+    /*block categories slider*/
+    #block-cat-slider{
+        padding: 0px
+    }
+
+    /*finded Supplier by Location*/
+    #section2{
+        padding: 0px;
+    }
+    #section2 hr {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+    .cat-location {
+        height: 150px;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 991px){
+
 }
